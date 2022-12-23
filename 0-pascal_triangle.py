@@ -21,5 +21,6 @@ def pascal_triangle(n):
     return triangle
 
 
-# jrjr
-print(pascal_triangle(2))
+# jrjr r
+
+# print(pascal_triangle(2))
