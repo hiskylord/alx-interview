@@ -15,8 +15,6 @@ def canUnlockAll(boxes):
         for key in box:
             if key < len(boxes) & key != position:
                 unlocked[key] = key
-            else:
-                print(key,  len(boxes), position,  key != position)
         if len(unlocked) == len(boxes):
             return True
         position += 1
